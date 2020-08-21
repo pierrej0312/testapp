@@ -1,7 +1,7 @@
 <template>
     <div class="contact">
         <h1>Contact</h1>
-        <Form>
+        <Form></Form>
     </div>
 </template>
 <script>

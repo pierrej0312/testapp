@@ -23,6 +23,11 @@ Vue.use(VueRouter)
     name: 'Contact',
     component: () => import(/* webpackChunkName: "contact" */ '../views/Contact.vue')
   },
+  {
+    path: '/beer',
+    name: 'Beer',
+    component: () => import(/* webpackChunkName: "beer" */ '../views/Beer.vue')
+  },
 ]
 
 const router = new VueRouter({
